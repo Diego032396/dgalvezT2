@@ -26,23 +26,29 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Label Text="USUARIO: "
+            <Label Text="USUARIO "
                    FontSize="Medium"
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand"
                    Grid.Row="0"
-                   Grid.Column="0"/>
-            <Entry x:Name="txtUsario"
-                   Placeholder="Ingrese su usuario aqui"                
-                   Grid.Row="0"
                    Grid.Column="1"/>
             
+            <Entry x:Name="txtUsario"
+                   Placeholder="Ingrese aqui la contraseña"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   
+                   
+                   
+                   />
+
+
             <Label Text=""
                    Grid.Column="1"/>
             <Label Text=""
                    Grid.Column="2"/>
 
-            <Label Text="CONTRASEÑA: "
+            <Label Text="CONTRASEÑA "
                    FontSize="Medium"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
