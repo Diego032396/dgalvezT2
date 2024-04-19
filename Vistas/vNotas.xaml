@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dgalvezT2.Vistas.vNotas"
+             Title="vNotas">
+    <ScrollView>
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+            <Label x:Name="lblUusario"
+            TextColor="White"
+            HorizontalOptions="End"/>
+            <Label
+         Text="Simulador de notas Uisrael"
+         TextColor="White"
+         FontSize="25"
+         HorizontalTextAlignment="Center"
+         />
+
+            <Label
+         Text="Seleccione estudiante: "
+         />
+
+            <Picker x:Name="pkseleccion" Title="Estudiantes">
+                <Picker.Items>
+                    <x:String>Diego Galvez</x:String>
+                    <x:String>Nayeli Chamba</x:String>
+                    <x:String>Anahi Aroca</x:String>
+                    <x:String>Mary Sanchez</x:String>
+                    <x:String>Cesar Sanchez</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Nota 1"/>
+            <Entry x:Name="txtNota1"
+            Placeholder="Ingrese aqui la nota 1"/>
+
+            <Label Text="Examen 1"/>
+            <Entry x:Name="txtExamen1"
+            Placeholder="Ingrese aqui nota del examen 1"/>
+
+            <Label x:Name="lblNota1"
+            FontSize="Medium"/>
+
+            <Label Text="segundo parcial"/>
+
+            <Label Text="Nota 2"/>
+            <Entry x:Name="txtNota2"
+            Placeholder="Ingrese aqui la nota 2"/>
+
+            <Label Text="Examen 2"/>
+            <Entry x:Name="txtExamen2"
+Placeholder="Ingrese aqui nota del examen 2"/>
+
+            <DatePicker x:Name="dpFecha"
+     Date="04/08/2024" 
+     Format="MM/dd/yyyy"/>
+            <Button x:Name="btbCalculo"
+                Text="calcular nota"
+                Clicked="btbCalculo_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

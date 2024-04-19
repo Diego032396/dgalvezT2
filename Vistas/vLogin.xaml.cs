@@ -22,7 +22,7 @@ public partial class vLogin : ContentPage
 			{
 				credencialesValidas = true;
 				DisplayAlert("Bienvenid@ "+ usuarioIngresado, usuarioIngresado+ " Ingresaste corectamente al simulador de notas Uisrael ", "Aceptar");
-				Navigation.PushAsync(new MainPage());
+				Navigation.PushAsync(new vNotas());
 			}
 		}
 		if(!credencialesValidas)
