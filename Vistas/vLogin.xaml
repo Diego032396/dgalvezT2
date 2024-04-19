@@ -5,7 +5,7 @@
              Title="vLogin">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Inicio de sesion"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
