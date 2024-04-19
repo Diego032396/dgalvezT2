@@ -82,10 +82,6 @@
             string nombre = pkseleccion.Items[pkseleccion.SelectedIndex].ToString();
             DisplayAlert("Notas", "Nombre: "+nombre+"\nFecha"+fecha+"\nNota Primer parcial: "+parcial1+"\nNotas segundo parcial: "+parcial2+"\nNota final: "+notafinal+"\nEstado: "+estado, "Aceptar");
 
-
-
-
-
         }
     }
 
