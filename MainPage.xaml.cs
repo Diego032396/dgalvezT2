@@ -7,6 +7,8 @@
         public MainPage()
         {
             InitializeComponent();
+            
+
         }
 
         private void btbCalculo_Clicked(object sender, EventArgs e)

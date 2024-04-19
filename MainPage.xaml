@@ -7,6 +7,9 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            <Label x:Name="lblUusario"
+                   TextColor="White"
+                   HorizontalOptions="End"/>
             <Label
                 Text="Simulador de notas Uisrael"
                 TextColor="White"
