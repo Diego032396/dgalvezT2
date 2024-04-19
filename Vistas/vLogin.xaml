@@ -40,21 +40,29 @@
             
             <Label Text=""
                    Grid.Column="1"/>
+            <Label Text=""
+                   Grid.Column="2"/>
 
             <Label Text="CONTRASEÑA: "
                    FontSize="Medium"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
-                   Grid.Row="2"
+                   Grid.Row="3"
                    Grid.Column="0"/>
             <Entry x:Name="txtContrasena"
                    Placeholder="Ingrese su contraseña aqui"
                    IsPassword="True"
-                   Grid.Row="2"
+                   Grid.Row="3"
                    Grid.Column="1"/>
 
-
-
+            <Label Text=""
+                   Grid.Column="4"/>
         </Grid>
+        
+        <Button
+            x:Name="btnInicio"
+            Text="INICIAR SESION"
+            Clicked="btnInicio_Clicked"/>
+        
     </VerticalStackLayout>
 </ContentPage>

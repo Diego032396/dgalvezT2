@@ -6,4 +6,9 @@ public partial class vLogin : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnInicio_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
