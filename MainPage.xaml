@@ -58,10 +58,6 @@
                     Clicked="btbCalculo_Clicked"/>
 
 
-
-
-
-
         </VerticalStackLayout>
     </ScrollView>
 
