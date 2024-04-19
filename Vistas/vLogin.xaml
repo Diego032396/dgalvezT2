@@ -11,8 +11,25 @@
         <Image Source="https://www.kindpng.com/picc/m/273-2738790_login-login-logo-hd-png-download.png"
        HeightRequest="100"/>
         <Grid>
-            
-            
-        </Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Text="USUARIO: "
+               FontSize="Body"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Grid.Row="0"
+               Grid.Column="0"/>
+
+
+
+    </Grid>
     </VerticalStackLayout>
 </ContentPage>
