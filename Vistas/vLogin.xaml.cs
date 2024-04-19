@@ -21,13 +21,13 @@ public partial class vLogin : ContentPage
 			if (usuarios[i] == usuarioIngresado && contrasenas[i] == contrasenaIngresada)
 			{
 				credencialesValidas = true;
-				DisplayAlert("bienvenido", "ingresaste corectamento" + usuarioIngresado, "ok");
+				DisplayAlert("Bienvenid@ "+ usuarioIngresado, usuarioIngresado+ " Ingresaste corectamente al simulador de notas Uisrael ", "Aceptar");
 				Navigation.PushAsync(new MainPage());
 			}
 		}
 		if(!credencialesValidas)
 		{
-			DisplayAlert("Error", "usuario o contraseña incorrectos", "ok");
+			DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
 		}
 		
 		
