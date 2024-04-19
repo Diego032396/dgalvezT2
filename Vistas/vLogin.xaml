@@ -6,6 +6,7 @@
     <VerticalStackLayout>
         <Label 
             Text="Inicio de sesion"
+            FontSize="Large"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
