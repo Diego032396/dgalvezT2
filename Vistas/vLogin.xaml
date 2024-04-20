@@ -6,14 +6,17 @@
     <VerticalStackLayout
         Padding="30"
         Spacing="25">
+        <Image Source="https://www.uisrael.edu.ec/wp-content/uploads/2020/05/logo-UISRAEL.png"
+     HeightRequest="200"/>
         <Label 
-            Text="Inicio de sesion"
-            FontSize="Large"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        <Image Source="https://www.kindpng.com/picc/m/273-2738790_login-login-logo-hd-png-download.png"
-       HeightRequest="100"
-       />
+     Text="Inicio de sesion"
+     FontSize="Title"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center" 
+     Grid.Row="0"
+     Grid.Column="0"/>
+
+
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -26,8 +29,13 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+           
+            <Label Text=""
+                   FontSize="Title"
+                   Grid.Row="0"/>
+
             <Label Text="USUARIO "
-                   FontSize="Medium"
+                   FontSize="Subtitle"
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand"
                    Grid.Row="1"
@@ -39,14 +47,13 @@
                    Grid.Column="1"                
                    />
 
-
             <Label Text=""
                    Grid.Column="1"/>
             <Label Text=""
                    Grid.Column="2"/>
 
             <Label Text="CONTRASEÑA "
-                   FontSize="Medium"
+                   FontSize="Subtitle"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    Grid.Row="3"
