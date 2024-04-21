@@ -12,11 +12,7 @@
      Text="Inicio de sesion"
      FontSize="Title"
      VerticalOptions="Center" 
-     HorizontalOptions="Center" 
-     Grid.Row="0"
-     Grid.Column="0"/>
-
-
+     HorizontalOptions="Center" />
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>

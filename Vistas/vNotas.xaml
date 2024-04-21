@@ -19,8 +19,7 @@
          />
 
             <Label
-         Text="Seleccione estudiante: "
-         />
+         Text="Seleccione estudiante: " />
 
             <Picker x:Name="pkseleccion" Title="Estudiantes">
                 <Picker.Items>

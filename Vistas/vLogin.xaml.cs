@@ -29,7 +29,6 @@ public partial class vLogin : ContentPage
 		{
 			DisplayAlert("Error", "Usuario o contraseña incorrectos", "Aceptar");
 		}
-		
-		
+			
     }
 }
