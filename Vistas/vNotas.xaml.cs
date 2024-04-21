@@ -14,7 +14,7 @@ public partial class vNotas : ContentPage
             DisplayAlert("Alerta", "Seleccione un estudiante", "Cerrar");
         }
 
-        //-----------------------------
+     
         if (!double.TryParse(txtNota1.Text, out double nota1))
         {
             DisplayAlert("Error", "Por favor ingrese valores numericos", "Cerrar");
